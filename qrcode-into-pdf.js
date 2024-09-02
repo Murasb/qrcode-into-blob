@@ -60,7 +60,7 @@ async function adicionarQRCode(pdfUrl, qrCodeURL, dataAprovacao) {
 }
 
 // Endpoint para adicionar QR Code e retornar o PDF modificado
-app.get('/add-qrcode', async (req, res) => {
+app.get('/add-qrcode-pdf', async (req, res) => {
   try {
     const pdfUrl = req.query.pdfUrl; // URL do PDF a ser modificado
     const qrCodeURL = req.query.qrCodeURL || 'https://example.com'; // URL para o QR code
