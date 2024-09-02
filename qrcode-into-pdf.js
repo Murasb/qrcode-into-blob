@@ -85,6 +85,7 @@ app.get('/add-qrcode-pdf', async (req, res) => {
   }
 });
 
+// teste comentarios
 // Inicia o servidor
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
