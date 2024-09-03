@@ -1,26 +1,71 @@
-# Meu Projeto 🚀
+# 🚀 QR Code File Processor
 
-Bem-vindo ao projeto! Este repositório contém o código para uma aplicação Node.js que processa PDFs e imagens com QR Codes. Abaixo estão as informações principais sobre o projeto.
+Bem-vindo ao projeto **QR Code File Processor**, um servidor Node.js projetado para adicionar QR Codes a documentos PDF e imagens. Este projeto é ideal para quem precisa incorporar informações digitais diretamente em arquivos físicos de forma automatizada e eficiente.
 
-## Funcionalidades
+<div style="text-align: center; font-size: 2rem; margin-bottom: 20px;">
+    📄 ➕ 📷 ➕ 🔗
+</div>
 
-- 📄 **Adicionar QR Code a PDFs**
-- 🖼️ **Adicionar QR Code a Imagens**
-- 🔍 **Processar Arquivos de Diferentes Tipos**
+## 🌟 Funcionalidades Principais
 
-## Tecnologias Utilizadas
+- 📄 **Adicionar QR Codes a PDFs:** Incorpore QR Codes em qualquer documento PDF com facilidade.
+- 📷 **Adicionar QR Codes a Imagens:** Suporte para imagens JPEG e PNG, permitindo a inclusão de QR Codes.
+- 🖋️ **Personalização de Texto:** Adicione texto personalizado abaixo do QR Code com opções de formatação.
+- ⚙️ **Processamento Automatizado:** Realize tudo isso através de uma simples chamada HTTP, automatizando seu fluxo de trabalho.
 
-- **Node.js**: Ambiente de execução JavaScript
-- **Express**: Framework para Node.js
-- **Sharp**: Biblioteca para manipulação de imagens
-- **QRCode**: Biblioteca para geração de QR Codes
-- **PDF-lib**: Biblioteca para manipulação de PDFs
+## 🔧 Tecnologias Utilizadas
 
-## Instalação
+<div style="display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 20px;">
+    <div style="margin: 10px; padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        Node.js
+    </div>
+    <div style="margin: 10px; padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        Express.js
+    </div>
+    <div style="margin: 10px; padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        PDF-Lib
+    </div>
+    <div style="margin: 10px; padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        Sharp
+    </div>
+    <div style="margin: 10px; padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        QRCode
+    </div>
+    <div style="margin: 10px; padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        Node-Fetch
+    </div>
+</div>
 
-Clone o repositório e instale as dependências:
+## 🚀 Como Começar
+
+Para começar a usar o **QR Code File Processor**, siga os passos abaixo:
 
 ```bash
-git clone https://github.com/usuario/projeto.git
-cd projeto
+# Clone o repositório
+git clone https://github.com/seu-usuario/qr-code-file-processor.git
+
+# Navegue até o diretório do projeto
+cd qr-code-file-processor
+
+# Instale as dependências
 npm install
+
+# Inicie o servidor
+npm start
+
+#Utilize a seguinte estrutura JSON para enviar uma requisição ao servidor:
+
+{
+  "pdfUrl": "https://example.com/yourfile.pdf",
+  "qrCodeURL": "https://example.com/your-qrcode",
+  "dataAprovacao": "2024-09-03",
+  "texto": "Aprovado",
+  "MIMETYPE": "application/pdf",
+  "textSize": 12,
+  "marginVertical": 50,
+  "marginHorizontal": 50
+}
+
+#Substitua os valores conforme necessário e envie a requisição usando o Postman, cURL, ou qualquer cliente HTTP de sua preferência.
+
+<div style="text-align: center; margin-top: 50px; font-size: 1rem; color: #888;"> Desenvolvido com ❤️ por Kauay Felipe/Murilo Bernardo - 2024 </div> ```
