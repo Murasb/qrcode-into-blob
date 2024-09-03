@@ -67,5 +67,6 @@ npm start
 }
 
 #Substitua os valores conforme necessário e envie a requisição usando o Postman, cURL, ou qualquer cliente HTTP de sua preferência.
+```
 
-<div style="text-align: center; margin-top: 50px; font-size: 1rem; color: #888;"> Desenvolvido com ❤️ por Kauay Felipe/Murilo Bernardo - 2024 </div> ```
+<div style="text-align: center; margin-top: 50px; font-size: 1rem; color: #888;"> Desenvolvido com ❤️ por Kauay Felipe/Murilo Bernardo - 2024 </div> 
