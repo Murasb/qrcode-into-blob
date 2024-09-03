@@ -1,15 +1,18 @@
 {
   "name": "qrcode-into-pdf",
   "version": "1.0.0",
-  "main": "qrcode-into-pdf.js",
-  "type": "module",
+  "description": "Servidor Express para adicionar QR Codes a PDFs e imagens.",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node qrcode-into-pdf.js"
+    "start": "node src/app.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "node-fetch": "^3.3.2",
+    "canvas": "^2.8.0",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
     "pdf-lib": "^1.17.1",
-    "qrcode": "^1.5.4"
+    "qrcode": "^1.5.1",
+    "qrcode-into-pdf": "file:",
+    "sharp": "^0.32.0"
   }
 }

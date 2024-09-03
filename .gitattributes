@@ -1,0 +1,12 @@
+# .gitattributes
+
+# Força o Git a usar LF para todos os arquivos de texto
+* text=auto eol=lf
+
+# Assegura que arquivos JSON usem LF
+*.json text eol=lf
+
+# Impede que binários sejam alterados
+*.png binary
+*.jpg binary
+*.pdf binary
