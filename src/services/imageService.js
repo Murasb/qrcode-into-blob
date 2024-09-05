@@ -44,6 +44,7 @@ async function addQRCodeToImage(imageBuffer, qrCodeURL, text, textSize, marginVe
     }
 }
 
+
 module.exports = {
     addQRCodeToImage,
 };

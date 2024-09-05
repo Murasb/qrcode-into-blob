@@ -20,6 +20,7 @@ async function addQRCodeToPdf(pdfBytes, qrCodeURL, text, textSize, marginVertica
         height: qrImageHeight,
     });
 
+    
     firstPage.drawText(text, {
         x: width - qrImageWidth - marginHorizontal,
         y: marginVertical,

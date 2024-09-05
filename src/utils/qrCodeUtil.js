@@ -5,6 +5,7 @@ async function generateQRCodeBase64(qrCodeURL) {
     return qrCodeDataUrl.split(',')[1];
 }
 
+
 module.exports = {
     generateQRCodeBase64,
 };

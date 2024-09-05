@@ -42,10 +42,10 @@ Para começar a usar o **QR Code File Processor**, siga os passos abaixo:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/Murasb/qrcode-into-blob
+git clone https://github.com/kauayf/qrcode-service
 
 # Navegue até o diretório do projeto
-cd qrcode-into-blob
+cd qrcode-service
 
 # Instale as dependências
 npm install
@@ -69,4 +69,4 @@ npm start
 #Substitua os valores conforme necessário e envie a requisição usando o Postman, cURL, ou qualquer cliente HTTP de sua preferência.
 ```
 
-<div style="text-align: center; margin-top: 50px; font-size: 1rem; color: #888;"> Desenvolvido com ❤️ por Kauay Felipe/Murilo Bernardo - 2024 </div> 
+<div style="text-align: center; margin-top: 50px; font-size: 1rem; color: #888;"> Desenvolvido com ❤️ por Kauay Felipe - 2024 </div> 

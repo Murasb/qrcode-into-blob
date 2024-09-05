@@ -2,6 +2,7 @@ const pdfService = require('../services/pdfService');
 const imageService = require('../services/imageService');
 const fetchUtil = require('../utils/fetchUtil');
 
+
 async function processFile(req, res) {
     try {
         const { pdfUrl, qrCodeURL, dataAprovacao, texto, MIMETYPE, textSize, marginVertical, marginHorizontal } = req.body;

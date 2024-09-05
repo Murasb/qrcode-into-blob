@@ -1,5 +1,5 @@
 {
-  "name": "qrcode-into-pdf",
+  "name": "qrcode-service",
   "version": "1.0.0",
   "description": "Servidor Express para adicionar QR Codes a PDFs e imagens.",
   "main": "src/app.js",
@@ -12,7 +12,7 @@
     "node-fetch": "^2.7.0",
     "pdf-lib": "^1.17.1",
     "qrcode": "^1.5.1",
-    "qrcode-into-pdf": "file:",
+    "qrcode-service": "file:",
     "sharp": "^0.32.0"
   }
 }
